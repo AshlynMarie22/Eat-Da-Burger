@@ -8,19 +8,49 @@ li {
   font-weight: bold;
 }
 
-.create-update-form {
+/* .create-update-form {
   padding: 5px;
   margin: 5px;
   background: aqua;
-}
+} */
 
 .form-group {
   margin-bottom: 5px;
 }
 h1 {
 text-align: center;
+margin-bottom: 30px;
+color: maroon;
 }
 body{
   padding: 10px;
   margin: 10px;
+  background-color: rgb(240, 203, 102);
+}
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.submitbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn.btn-light{
+  border-color: black;
+  margin-left: 15px;
+}
+.burgerimage{
+  height: 250px;
+  width: auto;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#burgerimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

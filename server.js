@@ -20,8 +20,6 @@ var routes = require("./controllers/burgersController.js");
 
 app.use(routes);
 
-// Start our server so that it can begin listening to client requests.
-app.listen(PORT, function() {
-  // Log (server-side) when our server has started
+app.listen(PORT, function () {
   console.log("Server listening on: http://localhost:" + PORT);
 });
